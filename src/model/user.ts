@@ -1,17 +1,13 @@
-interface userDetails{
-    name:string;
-    email:string;
-    age:number;
-    gender:string;
-}
 
-class User implements userDetails {
+class User {
     name:string;
+    id: number;
     email: string;
     age: number;
     gender: string;
-    constructor(name:string, email:string, age:number, gender:string){
+    constructor(name:string, id:number, email:string, age:number, gender:string){
         this.name = name;
+        this.id = id;
         this.email = email;
         this.age = age;
         this.gender = gender;
