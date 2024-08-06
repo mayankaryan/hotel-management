@@ -1,5 +1,5 @@
 
-class Hotel {
+export class Hotel {
     name:string;
     id: number;
     address:string;
