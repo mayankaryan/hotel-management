@@ -15,3 +15,4 @@ class Booking {
         this.total_price = total_price;
     }
 }
+
