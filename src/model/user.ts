@@ -1,11 +1,11 @@
-interface User{
+interface userDetails{
     name:string;
     email:string;
     age:number;
     gender:string;
 }
 
-class Person implements User {
+class User implements userDetails {
     name:string;
     email: string;
     age: number;
@@ -16,5 +16,6 @@ class Person implements User {
         this.age = age;
         this.gender = gender;
     }
+
 
 } 
