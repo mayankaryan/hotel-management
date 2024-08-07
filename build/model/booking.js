@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Booking = void 0;
 class Booking {
     constructor(user_name, user_id, hotel_name, hotel_id, total_days, total_price) {
         this.user_name = user_name;
@@ -9,3 +11,4 @@ class Booking {
         this.total_price = total_price;
     }
 }
+exports.Booking = Booking;

@@ -1,6 +1,6 @@
 import { Hotel } from "../model/hotel";
 
-let hotels = [];
+export let hotels:Hotel[] = [];
 
 let hotel1 = new Hotel ("IBIS",1,"Hosur Road,Bengaluru",10,3000);
 let hotel2 = new Hotel ("Tulip",2,"Hosur Road,Bengaluru",10,2000);

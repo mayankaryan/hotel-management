@@ -1,6 +1,6 @@
 import {User} from '../model/user'
 
-let user = [];
+export let user:User[] = [];
 
 let user1 = new User("Mayank",1,"may@test",22,"Male");
 let user2 = new User("May",2,"may@test",22,"Male");

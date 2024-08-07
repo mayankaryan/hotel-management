@@ -1,4 +1,4 @@
-class Booking {
+export class Booking {
     user_name:string;
     user_id:number;
     hotel_name:string;
